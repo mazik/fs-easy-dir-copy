@@ -1,0 +1,34 @@
+{
+  "name": "fs-easy-dir-copy",
+  "version": "1.0.0",
+  "description": "A promise based simplified Node.js directory copy recursive API",
+  "main": "src/fs-easy-dir-copy.js",
+  "repository": "https://github.com/mazik/fs-easy-dir-copy",
+  "author": {
+    "name": "Md Mazedul Islam Khan",
+    "email": "mazedulislamkhan@gmail.com",
+    "url": "https://github.com/iamazik"
+  },
+  "keywords": [
+    "fs",
+    "file",
+    "file system",
+    "copy directory",
+    "dir"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=13.11.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.1.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-jest": "^23.13.2",
+    "eslint-plugin-prettier": "^3.1.3",
+    "jest": "^26.0.1",
+    "prettier": "2.0.5"
+  },
+  "scripts": {
+    "test": "jest"
+  }
+}
