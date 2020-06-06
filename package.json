@@ -1,5 +1,5 @@
 {
-  "name": "fs-easy-dir-copy",
+  "name": "@mazik/fs-easy-dir-copy",
   "version": "1.0.0",
   "description": "A promise based simplified Node.js directory copy recursive API",
   "main": "src/fs-easy-dir-copy.js",
