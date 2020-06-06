@@ -28,6 +28,10 @@ jobs:
         key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
         restore-keys: |
         ${{ runner.os }}-yarn-
+<<<<<<< HEAD
+=======
+    - name: Install dependencies
+>>>>>>> 14bded5cd4a62f4deeedc9820f476f6d16291d49
     - run: yarn
     - name: Unit test
     - run: yarn test
